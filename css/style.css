@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+}
+
+.topbar {
+    background-color: #1877f2;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.container {
+    width: 600px;
+    margin: 20px auto;
+}
+
+.post {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.post-actions {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #166fe5;
+}
+
+.comments {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+}
